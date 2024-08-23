@@ -37,4 +37,10 @@ public class MainActivity extends AppCompatActivity {
         System.out.println("decrementing: " + --count);
         greetingDisplay.setText(String.valueOf(count));
     }
+
+    public void multiply(View view) {
+        count *= 2;
+        System.out.println("multiplying: " + count);
+        greetingDisplay.setText(String.valueOf(count));
+    }
 }
